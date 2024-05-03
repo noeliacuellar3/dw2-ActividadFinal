@@ -1,0 +1,25 @@
+/* HeroDetailComponent's private CSS styles */
+label {
+  color: #0a0a0a;
+  font-weight: bold;
+}
+input {
+  font-size: 1em;
+  padding: .5rem;
+}
+button {
+  margin-top: 20px;
+  background-color: #4585a5;
+  padding: 1rem;
+  border-radius: 20px;
+  font-size: 1rem;
+  box-shadow: #0d0d0e;
+}
+button:hover {
+  background-color: #cfd8dc;
+}
+button:disabled {
+  background-color: #eee;
+  color: #ccc;
+  cursor: auto;
+}
